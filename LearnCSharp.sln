@@ -5,13 +5,15 @@ VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnCSharp", "LearnCSharp\LearnCSharp.csproj", "{DB444198-3CDE-4D72-92EC-CEABEC49E20B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooleanExample", "BooleanExample\BooleanExample.csproj", "{22B9FD6C-7CA8-41A5-887E-7137937F8E97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooleanExample", "BooleanExample\BooleanExample.csproj", "{22B9FD6C-7CA8-41A5-887E-7137937F8E97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleArea", "CircleArea\CircleArea.csproj", "{7AFEAABD-903C-4666-81B9-4558454F4B20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircleArea", "CircleArea\CircleArea.csproj", "{7AFEAABD-903C-4666-81B9-4558454F4B20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleArea2", "CircleArea2\CircleArea2.csproj", "{C3D3EC85-CE33-4622-97FA-38FD4530EE62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircleArea2", "CircleArea2\CircleArea2.csproj", "{C3D3EC85-CE33-4622-97FA-38FD4530EE62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionExample", "FunctionExample\FunctionExample.csproj", "{7AD8D9A9-77ED-4338-BD65-3F98CB0B6112}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionExample", "FunctionExample\FunctionExample.csproj", "{7AD8D9A9-77ED-4338-BD65-3F98CB0B6112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter07", "Chapter07\Chapter07.csproj", "{E542B960-5FF1-4C6C-AF4B-63A0F0E7CCA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7AD8D9A9-77ED-4338-BD65-3F98CB0B6112}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AD8D9A9-77ED-4338-BD65-3F98CB0B6112}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AD8D9A9-77ED-4338-BD65-3F98CB0B6112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E542B960-5FF1-4C6C-AF4B-63A0F0E7CCA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E542B960-5FF1-4C6C-AF4B-63A0F0E7CCA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E542B960-5FF1-4C6C-AF4B-63A0F0E7CCA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E542B960-5FF1-4C6C-AF4B-63A0F0E7CCA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
