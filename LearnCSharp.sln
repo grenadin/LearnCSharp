@@ -13,7 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircleArea2", "CircleArea2\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionExample", "FunctionExample\FunctionExample.csproj", "{7AD8D9A9-77ED-4338-BD65-3F98CB0B6112}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter07", "Chapter07\Chapter07.csproj", "{E542B960-5FF1-4C6C-AF4B-63A0F0E7CCA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter07", "Chapter07\Chapter07.csproj", "{E542B960-5FF1-4C6C-AF4B-63A0F0E7CCA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter08.ModifierExample", "Chapter08\Chapter08.ModifierExample\Chapter08.ModifierExample.csproj", "{3A7237F8-FCF8-4278-8790-A45FCF6EAD55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter08", "Chapter08", "{82FAA783-AD75-4BA6-A0E3-5F773086AA1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter08.EncapsulationExample", "Chapter08\Chapter08.EncapsulationExample\Chapter08.EncapsulationExample.csproj", "{353AC7D7-B053-4C0E-9924-1ECC65F49321}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +51,21 @@ Global
 		{E542B960-5FF1-4C6C-AF4B-63A0F0E7CCA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E542B960-5FF1-4C6C-AF4B-63A0F0E7CCA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E542B960-5FF1-4C6C-AF4B-63A0F0E7CCA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7237F8-FCF8-4278-8790-A45FCF6EAD55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7237F8-FCF8-4278-8790-A45FCF6EAD55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7237F8-FCF8-4278-8790-A45FCF6EAD55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7237F8-FCF8-4278-8790-A45FCF6EAD55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{353AC7D7-B053-4C0E-9924-1ECC65F49321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{353AC7D7-B053-4C0E-9924-1ECC65F49321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{353AC7D7-B053-4C0E-9924-1ECC65F49321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{353AC7D7-B053-4C0E-9924-1ECC65F49321}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A7237F8-FCF8-4278-8790-A45FCF6EAD55} = {82FAA783-AD75-4BA6-A0E3-5F773086AA1F}
+		{353AC7D7-B053-4C0E-9924-1ECC65F49321} = {82FAA783-AD75-4BA6-A0E3-5F773086AA1F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CACA8FCA-5DEB-4208-BEE1-27BDA3935BAF}

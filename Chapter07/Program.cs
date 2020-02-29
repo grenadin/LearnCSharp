@@ -9,9 +9,7 @@ namespace Chapter07
             Person me = new Person();
             me.name = "HARIRAK";
             me.surname = "SRITHAM";
-            Person.GenderP a = Person.GenderP.male;
-            Console.WriteLine(a);
-            Console.ReadLine();
+          
             
         }
     }
