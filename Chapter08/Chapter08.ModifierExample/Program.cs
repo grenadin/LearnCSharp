@@ -6,7 +6,7 @@ namespace Chapter08.ModifierExample
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }

@@ -37,5 +37,10 @@ namespace Chapter08.EncapsulationExample
                 Console.WriteLine($"sorry this model{this.model} can not changemask");
         }
 
+        public string getModel()
+        {
+            return model;
+        }
+
     }
 }

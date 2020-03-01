@@ -11,7 +11,10 @@ namespace Chapter08.EncapsulationExample
             NokiaPhone MB2 = new NokiaPhone("8888", "black");
 
             MB1.changeMask("blue");
+            Console.WriteLine(MB1.getModel());
             MB2.changeMask("blue");
+            Console.WriteLine(MB2.getModel());
+
             Console.ReadLine();
 
         }
