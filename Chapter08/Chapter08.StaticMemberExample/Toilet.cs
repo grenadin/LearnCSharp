@@ -7,7 +7,19 @@ namespace Chapter08.StaticMemberExample
     class Toilet
     {
         public bool WaterSave { get; set; }
-        public static int UnitPrice { get; set; }
+
+        private static int unitPrice;
+
+        public static int GetUnitPrice()
+        {
+            return unitPrice;
+        }
+
+        public static void SetUnitPrice(int value)
+        {
+            unitPrice = value;
+        }
+
         public int Total { get; set; }
         public int Unit { get; set; }
 
@@ -40,7 +52,7 @@ namespace Chapter08.StaticMemberExample
         private void Calculate(int v)
         {
             Total += v;
-            Console.WriteLine($"Price of water now {Total*UnitPrice}");
+            Console.WriteLine($"Price of water now {Total* GetUnitPrice()}");
             Unit += v;
         }
 
