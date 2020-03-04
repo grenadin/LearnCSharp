@@ -13,6 +13,10 @@ namespace Chapter08.StaticMemberExample
             t1.Flush();
             Console.WriteLine($"Total flush will use water {t1.Unit} unit");
             Console.WriteLine($"Unit of water is now {Toilet.GetUnitPrice()}");
+            Console.WriteLine( Toilet.UnitPrice );
+            Toilet.UnitPrice = 8;
+            Console.WriteLine(Toilet.GetUnitPrice());
+            Console.WriteLine(Toilet.UnitPrice);
             Console.ReadLine();
 
 

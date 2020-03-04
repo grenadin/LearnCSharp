@@ -12,16 +12,17 @@ namespace Chapter08.StaticMemberExample
 
         public static int GetUnitPrice()
         {
-            return unitPrice;
+            return UnitPrice;
         }
 
         public static void SetUnitPrice(int value)
         {
-            unitPrice = value;
+            UnitPrice = value;
         }
 
         public int Total { get; set; }
         public int Unit { get; set; }
+        public static int UnitPrice { get => unitPrice; set => unitPrice = value; }
 
         public Toilet(bool waterSave)
         {
