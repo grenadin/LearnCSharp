@@ -9,6 +9,7 @@ namespace Chapter08.PropertiesExample
         {
             TestObject x = new TestObject();
             x.DataProp = 50;
+            
             Console.WriteLine(x.DataProp);
             Console.ReadLine();
         }

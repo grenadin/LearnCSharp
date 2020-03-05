@@ -18,8 +18,8 @@ namespace Chapter08.StaticMemberExample
             Console.WriteLine(Toilet.GetUnitPrice());
             Console.WriteLine(Toilet.UnitPrice);
             Console.ReadLine();
-
-
+            
+            Toilet.
             Toilet.SetUnitPrice(15);
             t1.Flush();
             Console.WriteLine($"Total flush will use water {t1.Unit} unit");

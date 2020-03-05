@@ -31,7 +31,7 @@ namespace Chapter08.StaticMemberExample
 
         }
 
-        public void Close()
+        public static void Close()
         {
             Console.WriteLine($"Close Lid");
         }
@@ -55,6 +55,11 @@ namespace Chapter08.StaticMemberExample
             Total += v;
             Console.WriteLine($"Price of water now {Total* GetUnitPrice()}");
             Unit += v;
+        }
+
+        static Toilet()
+        {
+            Console.WriteLine($"start now");
         }
 
         
