@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿using System
 namespace Chapter08.StaticMemberExample
 {
     class Program
